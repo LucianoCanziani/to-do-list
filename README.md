@@ -2,20 +2,15 @@ https://user-images.githubusercontent.com/96893895/174805910-dd2bdc2e-4caf-46f0-
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/efa2ef03-c249-4bba-a4a6-6bd37270497c/deploy-status)](https://app.netlify.com/sites/to-do-list-luciano-canziani/deploys)
 
-# Pokedex Api
+# To Do List
 
-The Famous Pokedex using the Pokemon Api.
+Basic To Do List. In here you will be able to add, remove, edit and filter tasks at pleasure! While also having a cool smooth white wave as a background.
 
-## things I learn in this Project:
-
-* I learn how to make calls to api with "Axios" an then how to manipulate that data.
-* I learn how to use "Pagination" when I have to many item to put in one page and adjust the number of pages to them when filtered.
-* I learn implement music and sound with "Howler".
-* Some cool CSS effects like the search bar.
+I also added the quotable api to get an inspirational message when you start your day.
 
 ## Api Used:
 
-Link: https://pokeapi.co/
+Link: [https://pokeapi.co/](https://api.quotable.io)
 
 ## Required Libraries and Frameworks:
 
@@ -33,9 +28,9 @@ Repository Link: https://github.com/LucianoCanziani/to-do-list
 Deploy Link: https://to-do-list-luciano-canziani.netlify.app/
 
 ## How to Use:
-1. Press the start button to enter the pokedex.
-2. Browse through the Pokedex and filter the Pokemons by type and name and select your favourite pokemon to learn more about it.
-3. Pokemon detail: in there you will see more information about that pokemon.
+1. Write a task in the input and then press in the "Add" button.
+2. Check completed, edit or remove the task.
+3. You can filter the tasks by completed and uncompleted.
 
 ## Installation Process From Scratch (see notes below):
    *Please keep in mind that, in case that you've already have installed and configured Node.js, GitHub CLI and NPM, you should then **skip steps 1-5** and start from step number 6.*
