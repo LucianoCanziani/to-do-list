@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+https://user-images.githubusercontent.com/96893895/174805910-dd2bdc2e-4caf-46f0-8b1f-c8d5ed44cdbd.mp4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/efa2ef03-c249-4bba-a4a6-6bd37270497c/deploy-status)](https://app.netlify.com/sites/to-do-list-luciano-canziani/deploys)
 
-## Available Scripts
+# Pokedex Api
 
-In the project directory, you can run:
+The Famous Pokedex using the Pokemon Api.
 
-### `npm start`
+## things I learn in this Project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* I learn how to make calls to api with "Axios" an then how to manipulate that data.
+* I learn how to use "Pagination" when I have to many item to put in one page and adjust the number of pages to them when filtered.
+* I learn implement music and sound with "Howler".
+* Some cool CSS effects like the search bar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Api Used:
 
-### `npm test`
+Link: https://pokeapi.co/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Required Libraries and Frameworks:
 
-### `npm run build`
+* react-router-dom: (^6.3.0)
+* axios: (^0.27.2)
+* react-simple-animate: (^3.5.0)
+* react-wavify: (^1.5.8)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## GitHub 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Repository Link: https://github.com/LucianoCanziani/to-do-list
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deploy Netlify
 
-### `npm run eject`
+Deploy Link: https://to-do-list-luciano-canziani.netlify.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Use:
+1. Press the start button to enter the pokedex.
+2. Browse through the Pokedex and filter the Pokemons by type and name and select your favourite pokemon to learn more about it.
+3. Pokemon detail: in there you will see more information about that pokemon.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation Process From Scratch (see notes below):
+   *Please keep in mind that, in case that you've already have installed and configured Node.js, GitHub CLI and NPM, you should then **skip steps 1-5** and start from step number 6.*
+   
+1. Download and install Node.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   **https://nodejs.org/en/download/**
+   
+2. Download GitHub CLI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   **https://cli.github.com/**
+   
+3. Install GitHub CLI. On the command line (cmd for example), run the following command:
 
-## Learn More
+   **winget install --id GitHub.cli**
+   
+4. Login to your GitHub account on GitHub CLI. On the command line, run the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   **gh auth login**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Download the latest version of npm. On the command line, run the following command:
 
-### Code Splitting
+   **npm install -g npm**
+   
+6. Clone the project on your PC. On the command line, run the following command: 
+   
+   **gh repo clone https://github.com/LucianoCanziani/to-do-list.git**
+   
+7. Install the necessary repository dependencies. On the command line, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   **npm install**
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. Start the repository. On the command line, run the following command: 
+   
+   **npm start**
