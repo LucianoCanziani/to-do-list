@@ -10,7 +10,7 @@ I also added the quotable api to get an inspirational message when you start you
 
 ## Api Used:
 
-Link: [https://pokeapi.co/](https://api.quotable.io)
+Link: https://api.quotable.io
 
 ## Required Libraries and Frameworks:
 
